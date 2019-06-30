@@ -5,12 +5,23 @@ import "./App.css";
 // import Search from "./pages/Search";
 // import Saved from "./pages/Saved";
 import Nav from "./components/Nav";
+import SearchForm from "./components/SearchForm";
+import Jumbotron from "./components/Jumbotron"
 // import NotMatch from "./pages/NotMatch";
+
 function App() {
   return (
     // <Router>
       <div>
+        <div>
         <Nav />
+        </div>
+        <div>
+        <Jumbotron />
+        </div>
+        <div>
+        <SearchForm />
+        </div>
         {/* <Switch> */}
           {/* <Route exact path="/" component={Search} />
           <Route exact path="/search" component={Search} />
